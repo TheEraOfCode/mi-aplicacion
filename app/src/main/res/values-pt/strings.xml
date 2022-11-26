@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Network</string>
+    <string name="channel_name">nombre_del_canal</string>
+    <string name="channel_description">descripcion_del_canal</string>
+
+    //xml
+    <string name="Registro">FORMULÁRIO DE INSCRIÇÃO</string>
+    <string name="Nombre">Nome</string>
+    <string name="Id">Número de identificação</string>
+
+    <string name="Phone">Telefone</string>
+    <string name="Email">E-mail</string>
+    <string name="Ocupacion">Ocupação</string>
+    <string name="imageId">Faça upload de sua imagem de identificação</string>
+    <string name="tipo">Type</string>
+
+    <string name="verContactos">Contatos</string>
+
+    <string name="Payment">Novo pagamento</string>
+    <string name="Charge">Nova cobrança</string>
+    <string name="Balance">Saldo</string>
+
+
+    <string name="LogOut">Sair</string>
+    <string name="Paypal">Paypal</string>
+
+    <string name="Date">Data</string>
+
+    //activity 2
+
+    <string name="cargaMasiva">Digite o tipo de contatos para os quais você deseja enviar um e-mail na barra de pesquisa</string>
+    <string name="eliminar">Tem certeza de que deseja excluir este contato?</string>
+    <string name="maximoDeContactos">Você só pode enviar um e-mail para 20 contatos por vez</string>
+    <string name="tipoContactoBarra">Insira o tipo de contatos para os quais deseja enviar um email na barra de pesquisa</string>
+
+
+
+    // actividad 3
+    <string name="editarNombre">Editar nome</string>
+    <string name="editarTelefono">Editar telefone</string>
+    <string name="editarEmail">Editar e-mail</string>
+    <string name="editarOcupacion">Editar ocupação</string>
+
+    <string name="textoNotificacion">Digite o texto da notificação</string>
+    <string name="programarFecha">Agendar data</string>
+    <string name="notificacionProgramada">Notificação agendada para </string>
+
+
+
+    <string name="montoPago">Digite o valor do pagamento</string>
+    <string name="montoCargo">Insira o valor da cobrança</string>
+    <string name="conceptoPago">Insira o conceito de pagamento</string>
+    <string name="conceptoCargo">Insira o conceito da cobrança</string>
+    <string name="cargaImagen">Carregar uma imagem</string>
+
+
+
+    <string name="decripcionImagen">Id Image</string>
+    <string name="accion">Escolha a ação que deseja realizar</string>
+    <string name="llamar">Chamada</string>
+    <string name="enviarEmail">Enviar e-mail</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cargandoImagen">Carregando imagem</string>
+
+    <string name="problemasConUrl">Problemas para obter o URL</string>
+    <string name="laImagenSeCargo">A imagem foi carregada com sucesso</string>
+    <string name="noCargoLaImagen">Não foi possível carregar a imagem</string>
+
+    <string name="notificacionDe">Notificação sobre</string>
+
+    <string name="nuevoValor">Por favor, insira um novo valor para este campo</string>
+
+    <string name="modificar">Modificar</string>
+
+    <string name="ok">Ok</string>
+
+    //activity main
+    <string name="tipoDeRegistro">Selecione um tipo de registro</string>
+    <string name="introduceId">Digite um número de identificação</string>
+    <string name="introduceTelefono">Digite um número de telefone</string>
+    <string name="introduceOcupacion">Por favor, insira uma ocupação</string>
+    <string name="introduceEmail">Por favor, insira um e-mail</string>
+    <string name="introduceImagen">Selecione uma imagem</string>
+    <string name="introduceNombre">Digite um nome</string>
+    <string name="registroCorrecto">O contato foi registrado com sucesso</string>
+    <string name="registroIncompleto">O contato não pôde ser registrado</string>
+
+    //actividad 4
+    <string name="enviarWhatsApp">Enviar WhatsApp</string>
+    <string name="entredecripcionImagen">Digite a descrição da imagem</string>
+    <string name="permisosOtorgados">As permissões foram concedidas</string>
+    <string name="guardandoImagen">Salvando imagem</string>
+    <string name="imagenGuardada">Imagem salva</string>
+    <string name="errorGuardandoImagen">Erro ao salvar a imagem</string>
+    <string name="fallahaciendoFolder">Falha ao criar a pasta </string>
+
+    //actividad 5
+
+    <string name="paypalClientId">AeQhyGPNexvKZvbtRILDSjo2LQi_sK9xcE3YMEmfooUGpCo4oW7Y6pJy8zYOWxt-Oee8CLhtFaOVYFCv</string>
+    <string name="miembroDesde">Membro de</string>
+    <string name="nombreDeUsuario">Nome de usuário</string>
+    <string name="agregaimagenPerfil">Adicione uma imagem ao seu perfil</string>
+    <string name="introduceNuevoNombreUsuario">Digite seu novo nome de usuário</string>
+
+    //xml
+    <string name="Pagoxml">Pagamento</string>
+    <string name="fechaXml">Data</string>
+    <string name="montoXml">Valor</string>
+    <string name="conceptoTransaccion">Conceito</string>
+
+
+    <string-array name="tipos">
+        <item>Tipo de registro</item>
+        <item>Cliente</item>
+        <item>Folha</item>
+        <item>Fornecedor</item>
+        <item>Amigo</item>
+    </string-array>
+
+
+
+</resources>

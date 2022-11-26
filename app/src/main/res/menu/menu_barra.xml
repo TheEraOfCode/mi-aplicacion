@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Ir a mi perfil"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/verPerfil"
+        app:showAsAction="always"
+        />
+    <item android:title="Registrar contactos"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        android:id="@+id/verRegistro"
+        app:showAsAction="always"
+        />
+
+    <item android:title="Ver mis contactos"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:id="@+id/verContactos"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/salida"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Salir"
+        app:showAsAction="always" />
+
+
+
+
+
+
+
+
+</menu>

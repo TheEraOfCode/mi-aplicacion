@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Network</string>
+    <string name="channel_name">nombre_del_canal</string>
+    <string name="channel_description">descripcion_del_canal</string>
+
+    //xml
+    <string name="Registro">REGISTER</string>
+    <string name="Nombre">Name</string>
+    <string name="Id">Id Number</string>
+    <string name="Phone">Phone Number</string>
+    <string name="Email">Email</string>
+    <string name="Ocupacion">Ocupation</string>
+    <string name="imageId">Upload your image id</string>
+    <string name="tipo">Type</string>
+
+
+    <string name="verContactos">Contacts</string>
+
+    <string name="Payment">New Payment</string>
+    <string name="Charge">New Charge</string>
+    <string name="Balance">Balance</string>
+
+    <string name="LogOut">Log Out</string>
+    <string name="Paypal">Paypal</string>
+
+    <string name="Date">Date</string>
+//actividad2
+
+    <string name="cargaMasiva">Enter in the search bar the type of contacts you´d like sending an email to</string>
+    <string name="maximoDeContactos">You can only email 20 contacts at a time</string>
+    <string name="eliminar">Are you sure you want to delete this contact?</string>
+    <string name="tipoContactoBarra">Enter on the search bar the type of contact you want to send an meil to</string>
+
+
+    actividad 3
+
+
+
+    <string name="editarNombre">Edit name</string>
+    <string name="editarTelefono">Edit phone</string>
+    <string name="editarEmail">Edit email</string>
+    <string name="editarOcupacion">Edit ocupation</string>
+
+
+    <string name="textoNotificacion">Enter the notificacion text</string>
+    <string name="programarFecha">Setting date</string>
+    <string name="notificacionProgramada">Notificacion set for</string>
+
+    <string name="montoPago">Enter the payment´s amount</string>
+    <string name="montoCargo">Enter the amount of the charge</string>
+    <string name="conceptoPago">Enter the payment concept</string>
+    <string name="conceptoCargo">Enter the charge concept</string>
+    <string name="cargaImagen">Upload an image</string>
+
+
+    <string name="decripcionImagen">Id image</string>
+
+    <string name="accion">Choose what action you want to carry out</string>
+    <string name="llamar">call</string>
+    <string name="enviarEmail">Send Email</string>
+
+
+    <string name="cancelar">Cancel</string>
+    <string name="cargandoImagen">Loading image</string>
+
+    <string name="problemasConUrl">Error while getting URL</string>
+    <string name="laImagenSeCargo">Image uploaded successfully</string>
+    <string name="noCargoLaImagen">Image couldn´t upload</string>
+
+    <string name="notificacionDe">Notification about</string>
+
+    <string name="nuevoValor">Pelase enter a new value for this field</string>
+
+    <string name="modificar">Modify</string>
+    <string name="ok">Ok</string>
+
+
+//activity main
+    <string name="tipoDeRegistro">Please select a type of register</string>
+    <string name="introduceId">PLease introduce an ID number</string>
+    <string name="introduceTelefono">Please introduce a phone number</string>
+    <string name="introduceOcupacion">Please introduce an occupation</string>
+    <string name="introduceEmail">Please introduce an email</string>
+    <string name="introduceImagen">Please select an image</string>
+    <string name="introduceNombre">Please introduce a name</string>
+    <string name="registroCorrecto">The contact was successfully registered</string>
+    <string name="registroIncompleto">The contact could not be registered</string>
+
+    //actividad 4
+    <string name="enviarWhatsApp">Send WhatsApp message</string>
+    <string name="entredecripcionImagen">Enter your image description</string>
+    <string name="permisosOtorgados">Permits were granted</string>
+    <string name="guardandoImagen">Saving Image</string>
+    <string name="imagenGuardada">Saved Image</string>
+    <string name="errorGuardandoImagen">Error while saving image</string>
+    <string name="fallahaciendoFolder">Failling making folder</string>
+
+//actividad 5
+
+    <string name="paypalClientId">AeQhyGPNexvKZvbtRILDSjo2LQi_sK9xcE3YMEmfooUGpCo4oW7Y6pJy8zYOWxt-Oee8CLhtFaOVYFCv</string>
+    <string name="miembroDesde">Member since</string>
+    <string name="nombreDeUsuario">User name</string>
+    <string name="agregaimagenPerfil">Add an image to your profile</string>
+        <string name="introduceNuevoNombreUsuario">Enter your new user name</string>
+
+
+
+    //xml
+    <string name="Pagoxml">Payment</string>
+    <string name="fechaXml">Date</string>
+    <string name="montoXml">Ammount</string>
+    <string name="conceptoTransaccion">Concept</string>
+
+
+    //arrays
+    <string-array name="tipos">
+        <item>Types of register</item>
+        <item>Client</item>
+        <item>Prospect</item>
+        <item>Suplier</item>
+        <item>Friend</item>
+    </string-array>
+
+
+
+
+</resources>

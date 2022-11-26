@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Ver Imagen"
+        android:id="@+id/itemo1" />
+
+    <item android:title="Cambiar imagen"
+        android:id="@+id/itemo2" />
+
+
+
+</menu>

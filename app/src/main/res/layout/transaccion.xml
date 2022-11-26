@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/documentoT"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:contentDescription="imagen"
+                tools:srcCompat="@drawable/c" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp">
+
+                <TextView
+                    android:id="@+id/montoT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                    android:drawablePadding="2dp"
+                    android:text="@string/montoXml"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tipoT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableRight="@drawable/ic_baseline_done_outline_24"
+                    android:drawablePadding="2dp"
+                    android:text="@string/tipo" />
+
+                <TextView
+                    android:id="@+id/conceptoT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@drawable/ic_baseline_article_24"
+                    android:drawablePadding="2dp"
+                    android:text="@string/conceptoTransaccion" />
+
+                <TextView
+                    android:id="@+id/fechaT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                    android:drawablePadding="2dp"
+                    android:text="@string/Date" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

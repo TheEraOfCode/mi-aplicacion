@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="633dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        tools:context=".MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0718FFFF">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Registro"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:hint="@string/Nombre"
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="100dp" />
+
+        <EditText
+            android:id="@+id/cedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Id"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@+id/nombre"
+            tools:layout_editor_absoluteX="90dp" />
+
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Phone"
+            android:inputType="phone"
+            app:layout_constraintTop_toBottomOf="@+id/cedula"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintTop_toBottomOf="@+id/telefono"
+            tools:layout_editor_absoluteX="100dp" />
+
+        <EditText
+            android:id="@+id/ocupacionTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/Ocupacion"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="87dp"
+            android:text="@string/imageId"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="75dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="245dp"
+            android:layout_marginTop="65dp"
+            android:clickable="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            app:srcCompat="@drawable/foto" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:onClick="crearCliente"
+            android:text="@string/Register"
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            tools:layout_editor_absoluteX="158dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:onClick="VerClientes"
+            android:text="@string/verContactos"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            tools:layout_editor_absoluteX="158dp" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
